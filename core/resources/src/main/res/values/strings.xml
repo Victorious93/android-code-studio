@@ -1043,4 +1043,14 @@ This AI agent is designed to assist you in developing Android applications direc
   <string name="lsp_ok_button">OK</string>
   <string name="lsp_installation_failed_description">Failed to install update: %s</string>
   <string name="lsp_retry_button">Retry</string>
+
+  <!-- Remote Control -->
+  <string name="title_remote_control">Remote Control</string>
+  <string name="idepref_remote_summary">Control the IDE remotely via HTTP</string>
+  <string name="title_remote_control_channel">Android Code Studio Remote Control</string>
+  <string name="title_remote_port">Server port</string>
+  <string name="msg_remote_port">Default: 7070</string>
+  <string name="msg_remote_token">Authentication token</string>
+  <string name="msg_remote_token_hint">Token will appear here after enabling Remote Control</string>
+  <string name="msg_remote_enabled">Remote control listening on port %d</string>
 </resources>

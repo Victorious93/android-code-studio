@@ -37,6 +37,7 @@ import java.util.concurrent.TimeUnit;
 public class BaseApplication extends Application {
 
   public static final String NOTIFICATION_GRADLE_BUILD_SERVICE = "17571";
+  public static final String NOTIFICATION_REMOTE_CONTROL = "17572";
   public static final String TELEGRAM_GROUP_URL = "https://t.me/acs_x";
   public static final String TELEGRAM_CHANNEL_URL = "https://t.me/rv2ide";  
   public static final String SPONSOR_URL = BuildInfo.REPO_URL;
