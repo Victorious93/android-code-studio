@@ -33,9 +33,9 @@ dependencies {
     implementation(libs.xml.remark)
     implementation(libs.xml.resolver)
 
-    testImplementation(libs.tests.junitJupiter)
-    testImplementation(libs.tests.googleTruth)
-    testRuntimeOnly(libs.tests.junitPlatformLauncher)
+    testImplementation(libs.tests.junit.jupiter)
+    testImplementation(libs.tests.google.truth)
+    testRuntimeOnly(libs.tests.junit.platformLauncher)
 }
 
 tasks.test {
