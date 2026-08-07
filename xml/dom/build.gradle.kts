@@ -25,11 +25,19 @@ plugins {
 dependencies {
     implementation(projects.utilities.shared)
     implementation(libs.composite.jaxp)
-    
+
     implementation(libs.common.jsoup)
     implementation(libs.common.jsonrpc)
     implementation(libs.google.guava)
     implementation(libs.google.gson)
     implementation(libs.xml.remark)
     implementation(libs.xml.resolver)
+
+    testImplementation(libs.tests.junit.jupiter)
+    testImplementation(libs.tests.google.truth)
+    testRuntimeOnly(libs.tests.junit.platformLauncher)
+}
+
+tasks.test {
+    useJUnitPlatform()
 }
